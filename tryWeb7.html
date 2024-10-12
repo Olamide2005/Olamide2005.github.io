@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electromagnetic Induction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <header> 
+        <h1>Electromagnetic Induction</h1>
+    </header>
+    <main>  
+        <figure class="emf-1">
+            <label> What is Electromagnetic Induction?</label><br>
+            <div> 
+                <p>Electromagnetic induction is the process by which a
+                changing magnetic field <i>induces</i> an electric field, causing 
+                a voltage to appear across a conductor, such as a coil of wire.
+                </p>
+                <p>This results in an electric current flowing through the conductor.<br>
+                To clarify, electromagnetic induction causes: 
+                <ol>
+                    <li>A changing magnetic field cutting across the conductor
+                        (solenoid).
+                    </li>
+                    <li>Which induces an electric field.</li>
+                    <li>Which causes a voltage to appear across a conductor.</li>
+                    <li>Resulting in an electric current flowing through 
+                        the conductor.
+                    </li>
+                </ol>
+                </p>
+            </div>
+        </figure><br>
+        <figure class="emf-2">
+            <label>Faraday's Experiments On Electromagnetic Induction</label><br>
+            <div class>
+                <p>In an entry in his notebook dated <i>17 October 1831</i>, Faraday
+                described how he made a cylindrical coil of copper wire round a paper
+                tube. Successive layers of turns were separated by strips of calico. 
+                When the coil was finished, its end were connected to a sensitive 
+                galvanometer. Faraday then plunged a magnet into the coil and noticed that 
+                the needle gave momentary deflection, showing that a current had been 
+                induced in the coil. On removal of the magnet from the coil the galvanometer
+                gave another deflection, this time in the opposite direction.  
+                </p>
+                
+                <div class = "apparatus">
+                    <div class="cylinder">
+                        <div class="hole"></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        <div class="coil"><section id = "arrow"></section></div>
+                        
+                        
+                    </div>
+                    <div class="circuit">
+                        <div class="galvanometer">
+                            <area class="scale"></area> <br> 
+                            &nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;
+                        </div>
+                    </div>
+                    
+                    <div id="magneticField">
+                    <section class="lines-O-force1"></section>
+                    <section class="lines-O-force2"></section>
+                        <div class="magnet">
+                            &nbsp;N &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S&nbsp; 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </figure><br>
+        <figure class="emf-3">
+            <label>Electromotive Force</label>
+            <div>
+                <p>After much thought, Faraday came to the conclusion that current was 
+                    induced in the circuit as a result of the wire being
+                    <i>cut by magnetic flux</i> when the magnet moved.
+                </p>
+                <p>Another way of describing this phenomenon is to say that
+                <b>an electromotive force is induced whenever there is a change in the
+                    magnetic flux linked within a coil</b>.</p>
+                <p>Continuing his investigations with other coils and magnets, Faraday 
+                    discovered that the strength of the induced current depends on:
+                    <ol>
+                        <li><i>the number of turns in the coil;</i></li>
+                        <li><i>the strength of the magnet;</i></li>
+                        <li><i> 
+                            the speed with which the magnet is plunged into the coil.
+                        </i></li>
+                    </ol>
+
+                    Conclusively, an electromotive force is the electromagnetic work done
+                    in moving one unit of electric charge around one conductive loop, in a 
+                    solenoid. 
+                </p>
+            </div>
+        </figure><br>
+        <figure class="emf-4">
+            <label>Faraday's Law Of Electromagnetic Induction</label>
+            <div>
+                <p><b>
+                    Whenever there is a change in the magnetic flux linked with a circuit,
+                    an electromotive force is induced, the strength of which is 
+                    proportional to the rate of change of the flux linked with the circuit.
+                </b></p>
+
+                <p>&epsilon; = N(<i>d</i>&Phi; / <i>d</i>t)</p> <br>
+                <dd>
+                    where;
+                    <dl> &epsilon; = induced electromotive force (E.M.F)</dl>
+                    <dl>N = number of turns of the coil</dl>
+                    <dl>&phi; = magnetic flux through the coil</dl>
+                    <dl>t = time</dl>
+                </dd>
+            </div>
+        </figure><br>
+    
+    </main>
+    <footer>
+        
+        <figcaption>&nbsp;<b>Olalekan Olamide</b></figcaption>
+        <figure>From Federal University Of Agriculture, Abeokuta.(FUNAAB)</figure>
+        
+    </footer>
+    
+</body>
+<style type="text/css">
+    header{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+        position: relative; top: -20px; min-width: 800px; height: 60px;
+    }
+    h1{ 
+        border-top: 2px solid black; border-bottom: 2px solid black;
+        text-align: center;
+        background-color: blueviolet;
+    }
+    body{ background-color: rgb(0, 255, 242); }
+    li{ margin-left: 90px; text-indent: -20%; }
+    .emf-1 , .emf-2, .emf-3 , .emf-4{
+        min-width: 90%; height: 75%; padding: 5px;
+        position: absolute;  left: 1.5%;
+        display: flex; flex-direction: column;
+        background-color: crimson; text-align: center;
+        font-weight: 100; font-size: 20px; 
+    }
+    div{
+        min-width: fit-content; margin-top: 4%; position: absolute;
+    }
+    .emf-1{top: 6%;}
+    .emf-2{ height: 120%; top: 86%;}
+    .emf-3{height: 88%; top: 210%;}
+    .emf-4{height: 86%; top: 302%;}
+     label{
+        position: absolute;  min-width: 99%; height: 7%;
+        background-color: blueviolet; text-align: center;
+        font-weight: bold;
+
+    } 
+    footer{ 
+        position: absolute;
+        height: 15%; width: 100%;
+        background-color: blueviolet;
+        top: 396%; 
+    }
+    footer > area {
+        position: absolute;
+        float: right; 
+    }
+
+
+
+        
+    .apparatus{
+        width: 420px; height: 320px;
+        position: absolute; top: 70%; left: 25%;
+        margin: 60px; display: flexbox; 
+        background-color: greenyellow;
+        align-items: center;   border-radius: 50%;
+    }
+    .cylinder{
+        display: flexbox; top: 95px; left: 30px;
+        position:  absolute; width:  200px; height: 80px;
+        border-top-left-radius: 30px; border-top-right-radius: 40px;
+        border-bottom-left-radius: 30px; border-bottom-right-radius: 40px;
+        border-right: 10px solid greenyellow ;
+        background-color: darkorange; 
+        z-index: 2; 
+    }
+    .hole{
+        position: absolute; width:  74px; height: 74px;
+        left : 134px; margin: 3px;  background-color: orange;
+        border-radius: 50px; transform: rotateY(55deg);
+    }
+    #arrow{
+        position: absolute; width: 20px; height: 20px;
+        top: 60px; right: 25px; transform: rotateX(310deg);
+        border-radius: 50%; background: red; 
+    }
+    .coil{
+        height: 80px;  width: 30px;
+        position: absolute; background-color: darkorange;
+        border-radius: 50%; border-left: 8px solid black;
+        transform: rotateY(-70deg)  rotateX(-10deg); 
+        top: -8px; left: 7px;
+    }
+    .coil:nth-child(1){ left: 10px; }
+    .coil:nth-child(2){ left: 30px; }
+    .coil:nth-child(3){ left: 50px; }
+    .coil:nth-child(4){ left: 70px; }    
+    .coil:nth-child(5){ left: 90px; }
+    .coil:nth-child(6){ left: 110px;}
+    .circuit{
+        width: 100px; height: 60px; border: 3px solid black;
+        border-top: 3px solid transparent; 
+        position: absolute; top: 170px; left: 60px;
+    }
+    .galvanometer{
+        width: 50px; height: 50px; 
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border: 2px dotted black ;
+        background-color: antiquewhite;  display: flexbox;
+        position: absolute; top: 35px; left: 24.5px;
+    }
+    .scale{
+        position: absolute; width: 2px; height: 40px; 
+        background-color: black; top: 2px; left: 25px;
+        background: linear-gradient(to bottom, black 50%, antiquewhite 50%);
+    }
+    .magnet{
+        width: 100px; height: 20px; background-color: brown;
+        position: absolute; top: 45px; right: 6px;
+        font-weight: bold; 
+    }
+    .lines-O-force1{
+        width: 100px; height: 50px;
+        position: absolute; top: 10px; right: 10px;
+        border-radius: 50%; 
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 10%);
+        animation: l-o-f 4s linear infinite;
+    }
+    .lines-O-force2{
+        width: 100px; height: 50px; 
+        position: absolute; top: 60px; right: 10px;
+        border-radius: 50%;
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 10%);
+        animation: l-o-f 4s linear infinite;
+    }
+    #magneticField{
+        width: 120px; height: 120px; display: flex; overflow: hidden;
+        position: absolute; top: 75px; left: 290px; z-index: 2;
+    }
+    @keyframes l-o-f {
+        10%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 10%);
+        }
+        20%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 15%); 
+        }
+        30%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 20%);
+        }
+        40%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 25%); 
+        }
+        50%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 30%);
+        }
+        60%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 25%); 
+        }
+        70%{
+        background: repeating-radial-gradient(ellipse at center,black 5%,greenyellow 20%); 
+        }
+        80%{
+        background: repeating-radial-gradient(ellipse at center,black 5%, greenyellow 15%);
+        }
+        90%{
+        background: repeating-radial-gradient(ellipse at center,black 5%, greenyellow 10%);
+        }
+    }
+    
+</style>
+
+<script type="text/javascript">
+    var magRes = document.getElementById("magneticField"), cyVal = 1;
+    var magCount = setInterval(magDirection, 50), magVal = 290, magBounds = "end";
+    var galCount = setInterval(galDirection, 50),
+    galRes = document.getElementsByClassName("scale")[0] ;
+    function magDirection(){
+        if(magBounds == "end"){
+            if(magVal == 31){ magBounds = "start"; }
+            if(magVal >= 30 && magVal <= 210){
+                document.getElementsByClassName("cylinder")[0].style.opacity = cyVal;
+                for(var i=0; i<6; i++){
+                    document.getElementsByTagName("section").item(i).style.top = 
+                    ((magVal/3.5) - 2) + "px";
+                    document.getElementsByTagName("section").item(i).style.opacity = cyVal;
+                }
+                cyVal = cyVal - 0.002;
+            }
+            if(magVal == 156){ magRes.style.zIndex = 1; }
+            magVal--;   magRes.style.left = magVal + "px"; 
+        }
+
+        if(magBounds == "start"){
+            if(magVal == 289){ magBounds = "end"; }
+            if(magVal >= 30 && magVal <= 210){
+                document.getElementsByClassName("cylinder")[0].style.opacity = cyVal;
+                for(var i=0; i<6; i++){
+                    document.getElementsByTagName("section").item(i).style.top =
+                    ((magVal/3.5) + 2) + "px";
+                    document.getElementsByTagName("section").item(i).style.opacity = cyVal;
+                }
+                cyVal = cyVal + 0.002;
+            }
+            if(magVal == 156){ magRes.style.zIndex = 2; }
+            magVal++;   magRes.style.left = magVal + "px"; 
+        }
+    }
+    function galDirection(){
+        galRes.style.transform = 
+        "rotateZ(" + -(1 * (magVal + 200)) + "deg)";
+    }
+
+</script>
+</html>
